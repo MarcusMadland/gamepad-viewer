@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GamepadViewer",
+	"Description": "A simple plugin that provides a gamepad viewer widget to keep track of input.",
+	"Category": "Other",
+	"CreatedBy": "Marcus Madland",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"Installed": true
+}
