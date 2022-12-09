@@ -5,7 +5,7 @@
 ![](https://github.com/MarcusMadland/GamepadViewer/blob/main/readme-gif01.gif)
 
 ## Functionality
-This plugin is ment to be an easy way to debug your controller input and making sure it's registered by the engine. It can also be used to showcase other developers on your team what exactly your input is when you are show casing some gameplay either in videos or by sharing your screen, since it's in engine.
+This plugin is ment to be an easy way to debug your controller input and also making sure it's registered by the engine. Use it to show exactly what your input is when performing certain actions either in videos or sharing your screen to your team members.
 
  **NO COLOR** - Not registering input. 
 
