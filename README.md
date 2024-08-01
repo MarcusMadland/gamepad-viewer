@@ -16,7 +16,7 @@ Contact
 [marcus@madland.info](marcus@madland.info)  
 
 Project page  
-https://github.com/marcusmadland/maya-bridge
+https://github.com/marcusmadland/gamepad-viewer
 
 [License (BSD 2-clause)](https://github.com/bkaradzic/bx/blob/master/LICENSE)
 -----------------------------------------------------------------------------
