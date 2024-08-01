@@ -6,11 +6,8 @@
 #include "Blueprint/UserWidget.h"
 #include "GamepadUserWidget.generated.h"
 
-/**
- * 
- */
 UCLASS()
-class MYPROJECT_API UGamepadUserWidget : public UUserWidget
+class UGamepadUserWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	

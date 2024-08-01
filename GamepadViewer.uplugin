@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.0.0",
+	"FriendlyName": "GamepadViewer",
+	"Description": "Unreal engine plugin to display and debug live input from a gamepad controller",
+	"Category": "Others",
+	"CreatedBy": "Marcus Madland",
+	"CreatedByURL": "https://github.com/MarcusMadland/gamepad-viewer",
+	"DocsURL": "https://github.com/MarcusMadland/gamepad-viewer",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:marcus@madland.info",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GamepadViewer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
