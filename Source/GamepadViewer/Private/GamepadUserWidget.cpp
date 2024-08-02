@@ -4,16 +4,16 @@
 
 #include "Math/UnrealMathUtility.h"
 
-void UGamepadUserWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
+void UGamepadUserWidget::Reset()
 {
-	for (bool& Action : ActionArr)
+	for (uint32 ii = 0; ii < (uint32)EInputType::E_Max; ++ii)
 	{
-		Action = false;
+		AxisArr[ii] = 0.0f;
 	}
 
-	for (float& Axis : AxisArr)
+	for (uint32 ii = 0; ii < (uint32)EInputType::E_Max; ++ii)
 	{
-		Axis = 0.0f;
+		ActionArr[ii] = false;
 	}
 }
 

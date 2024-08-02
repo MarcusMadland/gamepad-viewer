@@ -16,7 +16,8 @@ class UGamepadUserWidget : public UUserWidget
 	GENERATED_BODY()
 	
 protected:
-	void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void Reset();
 
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void SetAxisInput(EInputType Type = EInputType::E_FaceButtonBottom, float Value = 0.0f);
